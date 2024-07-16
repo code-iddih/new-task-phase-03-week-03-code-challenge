@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactify</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <img src="assets/phone-call.png" alt="Logo" class="logo" />
+        <h1><span id="contactify">Contact</span>ify</h1>
+        <h4>Contact . Management . System</h4>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <!-- Add contact form on the left -->
+        <div class="add-form">
+          <h2>Add New Contact</h2>
+          <form id="addContactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" required />
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="Phone" required />
+
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" placeholder="Image URL" />
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Location" />
+
+            <button type="submit" id="addBtn">Add Contact</button>
+          </form>
+        </div>
+
+        <!-- Search bar -->
+        <div class="mn-search-ctn">
+          <div class="search-container">
+            <div class="search-bar">
+              <span id="search-span">Type here to search contact:</span>
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Search using...(name) or (email) or (number) or (location)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact list on the right with 3 columns -->
+        <div class="contact-list">
+          <div id="contactsList">
+            <!-- Contacts will be displayed here dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for editing contacts -->
+      <div id="editModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Edit Contact</h2>
+          <form id="editContactForm">
+            <input type="hidden" id="editId" />
+
+            <label for="editName">Name:</label>
+            <input
+              class="input-edit"
+              type="text"
+              id="editName"
+              placeholder="Name"
+              required
+            />
+
+            <label for="editEmail">Email:</label>
+            <input
+              class="input-edit"
+              type="email"
+              id="editEmail"
+              placeholder="Email"
+              required
+            />
+
+            <label for="editPhone">Phone:</label>
+            <input
+              class="input-edit"
+              type="tel"
+              id="editPhone"
+              placeholder="Phone"
+              required
+            />
+
+            <label for="editImage">Image URL:</label>
+            <input
+              class="input-edit"
+              type="text"
+              id="editImage"
+              placeholder="Image URL"
+            />
+
+            <label for="editLocation">Location:</label>
+            <input
+              class="input-edit"
+              type="text"
+              id="editLocation"
+              placeholder="Location"
+            />
+
+            <button type="submit" id="updateBtn">Update Contact</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="ft-container">
+      <div class="ft-content">
+        <h3>Designed by &copy; code-iddih 2024</h3>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

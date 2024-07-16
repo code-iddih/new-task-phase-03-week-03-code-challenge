@@ -1,0 +1,285 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.title-container h4 {
+  margin: 0;
+  font-size: 16px;
+  text-align: right; /* Align the h4 to the right */
+}
+
+h4 {
+  color: rgb(129, 123, 123);
+  margin-left: 350px;
+}
+
+.header {
+  padding: 10px; /* Remove horizontal padding from the header itself */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f0f0f0; 
+  /* f0f0f0 */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add horizontal padding to the container */
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 6px; /* Add some space between the logo and the text */
+}
+
+.header h1 {
+  color: #000000;
+  margin: 0;
+}
+
+#contactify {
+  color: #4caf50;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Updated to have 1 part for add-form and 3 parts for contact-list */
+  gap: 40px; /* Increased gap to add more space between the add-form and contact-list */
+  align-items: start; /* Align items to the start to prevent stretching */
+  padding-top: 80px; /* Adjust padding to account for the fixed header */
+}
+
+.mn-search-ctn {
+  padding: 48px; /* Remove horizontal padding from the header itself */
+  position: fixed;
+  top: 0;
+  width: 1200px;
+  z-index: 1000;
+  background-color: #f0f0f0;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.add-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  margin-top: -20px;
+  position: sticky;
+  top: 200px;
+}
+
+.add-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-form label {
+  font-weight: bold;
+}
+
+.add-form input,
+.add-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+}
+
+.add-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+#contactsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display contact cards in 3 columns */
+  gap: 20px;
+
+}
+
+.contact-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.contact-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #f9f9f9 0%, #e0e0e0 100%);
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hide modal by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1000; /* Ensure it appears above other content */
+  overflow: auto; /* Allow scrolling if needed */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10% from top, centered horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Set width of modal */
+  max-width: 500px; /* Limit maximum width */
+  position: relative;
+}
+
+.modal label {
+  font-weight: bold;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#editContactForm {
+  display: grid;
+  gap: 10px;
+}
+
+#editContactForm input,
+#editContactForm button {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#updateBtn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#updateBtn:hover {
+  background-color: #45a049;
+}
+
+/* Search bar styles */
+/* .search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+} */
+
+.search-container {
+
+  background-color: blue;
+  border-radius: 40px;
+  position: fixed;
+  margin-left: 460px;
+  margin-top: -40px;
+  width: 680px;
+  height: 50px;
+}
+
+.search-bar {
+  position: sticky;
+  top: 100px;
+}
+
+#searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 420px;
+  margin-top: -7px;
+  margin-left: 13px;
+}
+
+#search-span {
+  margin-left: 14px;
+  color: white;
+}
+
+/* /Footer */
+
+.ft-container {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 2px 3px;
+  width: 861px;
+  margin-left: 637px;
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+}
