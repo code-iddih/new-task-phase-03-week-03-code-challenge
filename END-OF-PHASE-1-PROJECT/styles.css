@@ -162,7 +162,7 @@ h4 {
 .contact-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to right, #dfd9d9, #4caf50);
+  background: linear-gradient(to bottom, #dfd9d9, #4caf50);
 }
 
 /* Modal styles */
