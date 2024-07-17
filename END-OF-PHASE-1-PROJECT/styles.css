@@ -76,13 +76,15 @@ h4 {
   top: 0;
   width: 1200px;
   z-index: 1000;
-  background-color: #f0f0f0;
-  margin-top: 81px;
-  margin-right: 80px;
+  background-color: #dfd9d9;
+  margin-top: 68px;
+  margin-left: -50px;
+  margin-right: 20px;
+  border-radius: 0 0 30px 30px; 
 }
 
 .add-form {
-  background-color: #000000;
+  background-color: #dfd9d9;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
@@ -98,12 +100,12 @@ h4 {
 }
 
 .add-form h2 {
-  color: #4caf50;
+  color: #000000;
 }
 
 .add-form label {
   font-weight: bold;
-  color: #4caf50;
+  color: #000000;
 }
 
 .add-form input,
@@ -129,7 +131,7 @@ h4 {
 }
 
 .contact-list {
-  background-color: #000000;
+  background-color: #4caf50;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -144,12 +146,16 @@ h4 {
 }
 
 .contact-card {
-  background: linear-gradient(to bottom, #4caf50, #dfd9d9);
+  background: linear-gradient(to bottom, #dfd9d9, #dfd9d9);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.contact-card h3, p{
+  color: #000000;
 }
 
 .contact-card img {
@@ -162,7 +168,7 @@ h4 {
 .contact-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #dfd9d9, #4caf50);
+  background: linear-gradient(to bottom, #ada7a7, #f1e2e2);
 }
 
 /* Modal styles */
@@ -179,7 +185,7 @@ h4 {
 }
 
 .modal-content {
-  background-color: #000000;
+  background-color: #dfd9d9;
   margin: 10% auto; /* 10% from top, centered horizontally */
   padding: 20px;
   border: 1px solid #888;
@@ -191,11 +197,11 @@ h4 {
 
 .modal label {
   font-weight: bold;
-  color: #4caf50;
+  color: #000000;
 }
 
 .modal h2 {
-  color: #4caf50;
+  color: #000000;
 }
 
 .close {
@@ -267,7 +273,7 @@ h4 {
   border-radius: 40px;
   position: fixed;
   margin-left: 460px;
-  margin-top: -20px;
+  margin-top: -30px;
   width: 680px;
   height: 50px;
 }
@@ -283,7 +289,7 @@ h4 {
   border: 1px solid #ccc;
   border-radius: 20px;
   width: 420px;
-  margin-top: 5px;
+  margin-top: -9px;
   margin-left: 13px;
 }
 
@@ -297,13 +303,23 @@ h4 {
 .ft-container {
   display: flex;
   justify-content: center;
-  background-color: #4caf50;
-  color: #ffffff;
+  background-color: #dfd9d9;
+  color: #000000;
   margin-top: 20px;
   border-radius: 8px;
   padding: 2px 3px;
   width: 861px;
   margin-left: 637px;
+}
+
+.container video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+  z-index: -1; /* Ensure the video is behind other content */
 }
 
 
