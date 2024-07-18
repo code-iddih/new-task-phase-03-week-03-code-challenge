@@ -1,39 +1,39 @@
 {
   "contacts": [
     {
-      "name": "John Doestaaaaaa",
-      "email": "aaaajohn@example.coms",
-      "phone": "0797373319",
-      "image": "https://randomuser.me/api/portraits/men/1.jpg",
-      "location": "New Yorks",
+      "name": "Stella Margy",
+      "email": "margy@gmail.com",
+      "phone": "0700000000",
+      "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFmcmljYW5zfGVufDB8fDB8fHww",
+      "location": "Eldoret",
       "id": "1"
     },
     {
-      "name": "Michael Johnsonsss",
-      "email": "michael@example.coms",
-      "phone": "555-123-4567s",
+      "name": "Michael Johnsons",
+      "email": "michael@gmail.com",
+      "phone": "111-222-3333",
       "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdoaXRlJTIwcGVvcGxlfGVufDB8fDB8fHww",
-      "location": "Los Angeless",
+      "location": "New York",
       "id": "3"
     },
     {
-      "id": "4",
       "name": "Emily Davis",
-      "email": "emily@example.com",
-      "phone": "111-222-3333",
+      "email": "emily@gmail.com",
+      "phone": "456-345-3333",
       "image": "https://randomuser.me/api/portraits/women/4.jpg",
-      "location": "Chicago"
+      "location": "Chicago",
+      "id": "4"
     },
     {
-      "id": "5",
       "name": "David Brown",
-      "email": "david@example.com",
+      "email": "david@yahoo.com",
       "phone": "444-555-6666",
       "image": "https://randomuser.me/api/portraits/men/5.jpg",
-      "location": "Houston"
+      "location": "Australia",
+      "id": "5"
     },
     {
-      "name": "Lils",
+      "name": "Lils Zor",
       "email": "lil@gmail.coms",
       "phone": "0797377819",
       "image": "https://media.istockphoto.com/id/1708046305/photo/business-man-mature-and-portrait-outdoor-with-arms-crossed-for-professional-career-and.webp?b=1&s=170667a&w=0&k=20&c=IMp4BnZOaAookY7J8S4y9ln3AetcQ-_UoDOnC-KCZe0=",
@@ -41,44 +41,52 @@
       "id": "a73b"
     },
     {
-      "id": "52e5",
-      "name": "Chris",
-      "email": "idinyamwaya@gmail.com",
-      "phone": "0797373319",
-      "image": "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdoaXRlJTIwcGVvcGxlfGVufDB8fDB8fHww",
-      "location": "New York, NY"
+      "name": "James Khan",
+      "email": "khan@gmail.com",
+      "phone": "834-567-9034",
+      "image": "https://cdn.pixabay.com/photo/2021/05/25/04/19/boy-6281260_640.jpg",
+      "location": "India",
+      "id": "52e5"
     },
     {
-      "id": "91af",
-      "name": "Michael Johnson",
-      "email": "john@example.com",
-      "phone": "123-456-7891",
-      "image": "https://randomuser.me/api/portraits/men/3.jpg",
-      "location": "Los Angeles"
+      "name": "Sonapei Lema",
+      "email": "sonapei@outlook.com",
+      "phone": "0729458485",
+      "image": "https://cdn.pixabay.com/photo/2024/07/04/19/20/portrait-8873214_640.jpg",
+      "location": "Narok",
+      "id": "91af"
     },
     {
-      "name": "Selr",
-      "email": "idinyamwaya@gmail.com",
-      "phone": "123-456-7890",
-      "image": "https://randomuser.me/api/portraits/men/3.jpg",
-      "location": "New York",
+      "name": "Miller Smith",
+      "email": "smith@gmail.com",
+      "phone": "143-026-7890",
+      "image": "https://cdn.pixabay.com/photo/2015/08/05/04/02/people-875597_640.jpg",
+      "location": "Nairobi",
       "id": "7c63"
     },
     {
-      "id": "9a07",
-      "name": "Zuma",
-      "email": "john@example.com",
-      "phone": "555-123-4567s",
+      "name": "Zuma Chris",
+      "email": "zuma@example.com",
+      "phone": "567-305-2190",
       "image": "https://randomuser.me/api/portraits/men/3.jpg",
-      "location": "Los Angeless"
+      "location": "Los Angeles",
+      "id": "9a07"
     },
     {
-      "id": "86eb",
       "name": "Jerry Jakes",
-      "email": "jerry@example.coms",
+      "email": "jerry@yahoo.com",
       "phone": "555-123-4567s",
       "image": "https://cdn.pixabay.com/photo/2017/12/17/08/12/girl-3023831_640.jpg",
-      "location": "Eldoret"
+      "location": "Eldoret",
+      "id": "86eb"
+    },
+    {
+      "name": "Jim Soy",
+      "email": "jim@gmail.com",
+      "phone": "0789234567",
+      "image": "https://cdn.pixabay.com/photo/2015/08/05/04/25/people-875617_640.jpg",
+      "location": "Hawaii",
+      "id": "b4d1"
     }
   ]
 }
