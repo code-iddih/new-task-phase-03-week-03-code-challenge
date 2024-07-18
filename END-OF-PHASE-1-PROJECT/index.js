@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
     contactCard.innerHTML = `
       <img src="${contact.image}" alt="${contact.name}">
       <h3>${contact.name}</h3>
-      <p>Email: ${contact.email}</p>
-      <p>Phone: ${contact.phone}</p>
-      <p>Location: ${contact.location}</p>
+      <p><span>Email:</span>  ${contact.email}</p>
+      <p><span>Phone:</span>  ${contact.phone}</p>
+      <p><span>Location:</span> ${contact.location}</p>
       <button class="editBtn" data-id="${contact.id}">Edit</button>
       <button class="deleteBtn" data-id="${contact.id}">Delete</button>
     `;
