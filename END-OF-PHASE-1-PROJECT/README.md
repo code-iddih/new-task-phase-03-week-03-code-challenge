@@ -103,7 +103,6 @@ Enhanced UI/UX: Continuous improvements to the design and user experience based 
 I welcome contributions to improve Contactify! To contribute:
 
 Step 1: Fork the repository.
-
 Step 2: Create a new branch for your feature or bugfix.
 
 Step 3: Commit your changes and push your branch.
